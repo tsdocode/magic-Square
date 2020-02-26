@@ -3,6 +3,7 @@
 ![ma_phuong](https://lh5.googleusercontent.com/proxy/sJumO1Q6vyN8CesLafqlGcV3-gVIskJ3tpKJgopG9zbr3cygrkWBS0pLv9pJFiMuF-rRYQnrLFXIYi3iLafJqrPX5eI1AiIMgFt0b7e1srg6LfISn7Cke0ANk7g=s0-d)
 
 > *write up by ts from UTE*
+> [*code*](https://github.com/hcmutets/magic-Square/blob/master/magic_square.cpp) 
 
 > [*ts's facebook*](https://www.facebook.com/tstheloser)
 
