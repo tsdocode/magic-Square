@@ -3,6 +3,7 @@
 ![ma_phuong](https://lh5.googleusercontent.com/proxy/sJumO1Q6vyN8CesLafqlGcV3-gVIskJ3tpKJgopG9zbr3cygrkWBS0pLv9pJFiMuF-rRYQnrLFXIYi3iLafJqrPX5eI1AiIMgFt0b7e1srg6LfISn7Cke0ANk7g=s0-d)
 
 > *write up by ts from UTE*
+
 > [*ts's facebook*](https://www.facebook.com/tstheloser)
 
 
@@ -17,6 +18,9 @@
         + Ma phương chẵn (n = 4k + 2)
         + Ma phương lẽ   (n = 2k + 1)
         + Không có ma phương bậc 2
+	
+	
+	
 ##*1. Giải ma phương bậc là bội 4*
 ###Phương pháp
     - Chia ma trận n * n thành các ma trận 4 * 4
