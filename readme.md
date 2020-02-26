@@ -4,6 +4,8 @@
 
 > *write up by ts from UTE*
 > [*ts's facebook*](https://www.facebook.com/tstheloser)
+
+
 ##*Ma phương là gì ?*
     - Ma phương là một ma trận vuông có tổng các phần tử trên:
         + Hàng
