@@ -9,7 +9,7 @@
 > [*ts's facebook*](https://www.facebook.com/tstheloser)
 
 
-##*Ma phương là gì ?*
+## *Ma phương là gì ?*
     - Ma phương là một ma trận vuông có tổng các phần tử trên:
     
         + Hàng
@@ -32,9 +32,9 @@
 	
 	
 	
-##*1. Giải ma phương bậc là bội của 4*
+## *1. Giải ma phương bậc là bội của 4*
 
-###Phương pháp
+### Phương pháp
 
     - Chia ma trận n * n thành các ma trận 4 * 4
     - Số ma trận 4 * 4 = (n / 4)^2
@@ -47,7 +47,7 @@
 		x là các vị trí đượng điền số
 		- là các vị trí không điền
 		Sau đó lấy các số chưa được điền viết ngược lại vào mảng
-###Các bước lập trình:
+### Các bước lập trình:
 
 	Bước 1: Tính số ma phương con và vị trí của chúng:
 Code:
@@ -117,7 +117,7 @@ Code:
 
 
 
-###Kết quả:
+### Kết quả:
 
 Một vài kết quả tiêu biểu:
 
@@ -125,15 +125,15 @@ n = 16:
 
 ![16](https://lh3.googleusercontent.com/_38-_PxJY0xsu5LGiwxCagL01lIKCUPQlrUgjqAGtFYk_8catW2cfVDB-rQY3lmp0XuN0sT1rhzy5CeiGicudWWip3gdaMNhppmb90NieYi28wvnI5MVY6hgiI85C5XJj-BFT-70phmcz0ixFpyWJLU5eFoOsGoC_rFqSacF_9GS05z3K7O1R7tUliIF3tlDRuIPe5RggopWE5AU8Gk7M1u6couRgyicAi_EgmykGRSCWnuBYwHMD4-fgIdSFhQ3u_NOrC2ADC6-jAhqmBxweKfKhbwI4GLILDRX9h_kBVljyN3PGUnzrMJjmkUcsucmx4CBdGPRlseBfdXin6BDQe4Ha8VAV5dZkzjffPbj2v8p9vSKS1IuouaEL_QkFkg09W20k4ktFkYiCyJEv6hNUh--k2evkrpTbeS_KfxW8NSo2VmpHghi-yHEJrTp3ASDbxeLqK-6eByGC1hrDo1i9-9kZlj0-Cb83-4M1ZXyY4MwP-wBhI-qk5Un3Ysrdd8VASVWTyGZWbrdlkx9zNZB6qzZfBeLtzBTcSnLj8HG6VOPJt1dgzWAOw8TAOcYMR7aCyyIPFODGX1JdxziYfbSguJgG0-C15K5NY61ftns9xITZ86ky5lxSY8nGRHhuBXgBfF5-xC-4bfFihwtq409kdDrbtKtH7NpIcGAoP7QFPqunKXnspwG7EwkRXnuJDoFdtHiYGaoEzZBODD_rbSVvjyYV2TDEOc0tsAQAPzUX_KCJA=w584-h320-no)
 
-##*2. Ma phương bậc lẻ*
+## *2. Ma phương bậc lẻ*
 
-###Phương pháp
+### Phương pháp
 
-####1.  Các đường chéo
+#### 1.  Các đường chéo
 
 ![duong_cheo](https://i0.wp.com/i.imgur.com/k3zQBbJ.png?w=780)
 
-#####Mô tả
+##### Mô tả
 
 	- Với n là số lẽ, vẽ n đường chéo mang giá trị từ 1 tới n^2
 
@@ -141,7 +141,7 @@ n = 16:
 
 	- Lắp các số ở ngoài ma phương đến vị trí trống gần với cạch hình vuông ở xa nhất
 
-#####Các bước lập trình
+##### Các bước lập trình
     
     Bước 1: Tạo các đường chéo có giá trị như đã nói ở trên
 Code:
@@ -255,11 +255,11 @@ Code:
 	}
 ```
 
- #### 2.Phương pháp Siamese
+#### 2.Phương pháp Siamese
  
  ![siamese](https://i.imgur.com/M0wezEc.gif)
  
- ##### Quy tắt Siamese:
+##### Quy tắt Siamese:
  
  	1. Bắt đầu từ trung tâm cạnh trên
     	2. Đi theo hướng ĐN(Đông Nam)
@@ -268,7 +268,7 @@ Code:
 		3.2 Ra khỏi phía phải => Đi về phía trái cùng
 		3.3 Đi đến ô tiếp theo đã có giá trị => Đi xuống dưới ô đang đứng 
 
-#####Các bước lập trình
+##### Các bước lập trình
 
 	Bước 1: Khởi tạo:
 		1.1 Khởi tạo vị trí đầu
@@ -310,9 +310,9 @@ Code:
 	}
 ```
 
-##*Ma phương bậc chẵn (4k + 2)*
+## *Ma phương bậc chẵn (4k + 2)*
 
-###1. Phương pháp Strachey 
+### 1. Phương pháp Strachey 
 
 - Chia ma phương bật chẵn thành 4 ma phương bật lẻ, sắp xếp theo thứ tự:
 
@@ -321,7 +321,7 @@ Code:
 
 - Đổi chỗ k-1 cột ngoài cùng bên phải của hai ma phương B và C
 - Đổ chỗ trung tâm cạch ngoài cùng và trung tâm của ma phương A và D 
-###Các bước lập trình
+### Các bước lập trình
     Bước 1: Tạo các ma phương con
 ```cpp
     //Tạo Ma Phương Con A
@@ -454,7 +454,7 @@ void swap(int& a, int& b) {
 }
 ```
 
-##*4.Nguồn tham khảo*
+## *4.Nguồn tham khảo*
 
 [Ma phương](https://vi.wikipedia.org/wiki/Ma_tr%E1%BA%ADn_k%C3%AC_%E1%BA%A3o)
 
